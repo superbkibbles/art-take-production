@@ -1,0 +1,20 @@
+.logo {
+    animation: logo 10s linear infinite;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotateZ(0);
+    }
+    35% {
+        transform: rotateZ(-1deg);
+    }
+
+    70% {
+        transform: rotateZ(1deg);
+    }
+
+    100% {
+        transform: rotateZ(0);
+    }
+}

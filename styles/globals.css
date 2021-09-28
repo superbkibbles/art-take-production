@@ -2,8 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: url('/fonts/futur.ttf'), -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: var(--color-grey-light);
+    letter-spacing: 1px;
 }
 
 a {
@@ -14,3 +16,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --color-grey-light: var(--color-grey-light);
+}
+
